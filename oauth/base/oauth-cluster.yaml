@@ -10,7 +10,7 @@ spec:
     gitlab:
       clientID: 467f88a1d8917bb7a1b552898e82f38df2e27523140bcae015b67b564379ce38
       clientSecret: 
-        name: gitlab-secret
+        name: gitlab
       url: https://gitlab.consulting.redhat.com
   - htpasswd:
       fileData:
