@@ -4,7 +4,7 @@ metadata:
   name: cluster
 spec:
   identityProviders:
-  - name: gitlabidp
+  - name: gitlab
     mappingMethod: claim
     type: GitLab
     gitlab:
