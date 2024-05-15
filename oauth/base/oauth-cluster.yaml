@@ -12,3 +12,10 @@ spec:
       clientSecret: 
         name: gitlab-secret
       url: https://gitlab.consulting.redhat.com
+  - htpasswd:
+      fileData:
+        name: htpasswd-zxmnk
+    mappingMethod: claim
+    name: htpasswd
+    type: HTPasswd
+
