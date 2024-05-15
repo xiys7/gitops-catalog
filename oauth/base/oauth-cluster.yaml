@@ -3,4 +3,12 @@ apiVersion: config.openshift.io/v1
 metadata:
   name: cluster
 spec:
-  identityProviders: []
+  identityProviders:
+  - name: gitlabidp
+    mappingMethod: claim
+    type: GitLab
+    gitlab:
+      clientID: 467f88a1d8917bb7a1b552898e82f38df2e27523140bcae015b67b564379ce38
+      clientSecret: gitlab-secret
+        name: gitlab-secret
+      url: https://gitlab.consulting.redhat.com
